@@ -22,15 +22,15 @@ public class Bear extends Animal{
         super.changeSeason();
         switch (this.season) {
             case WINTER:
-                this.weight = (int) Math.round((this.weight * 0.8));
+                this.weight = (int) Math.round(this.weight * 0.8);
                 break;
             case SPRING:
-                this.weight =  Math.round((int)(this.weight * 0.75));
+                this.weight =  (int)Math.round(this.weight * 0.75);
                 break;
             case SUMMER:
-                this.weight = Math.round((int)(this.weight * 1.33333));
+                this.weight = (int)Math.round(this.weight * 1.3333);
             case FALL:
-                this.weight = Math.round((int)(this.weight * 1.25));;
+                this.weight = (int)Math.round(this.weight * 1.25);
                 break;
             default:
         }
